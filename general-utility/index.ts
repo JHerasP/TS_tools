@@ -1,3 +1,3 @@
 import { awaitResolver } from "./promise";
-
-export { awaitResolver };
+import { caseGuard } from "./case-guard";
+export { caseGuard, awaitResolver };
