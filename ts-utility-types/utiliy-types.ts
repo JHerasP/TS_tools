@@ -43,3 +43,10 @@ export type ReplaceKeys<T, F extends keyof T, S extends string, R> = Omit<T, F> 
  */
 export type OptionalExceptFor<T, F extends keyof T = keyof T> = Partial<Pick<T, Exclude<keyof T, F>>> &
   Required<Pick<T, F>>;
+
+/**
+ * Gives a loose autocomplete allowing to use string and union
+ * strings at the same time
+ * @param T Type
+ */
+export type LooseAutocomplete<T extends string> = T | Omit<string, T>;
