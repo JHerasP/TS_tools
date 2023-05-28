@@ -1,5 +1,5 @@
-import { NestedKeyOf } from "./nested-types";
+import { NestedKeyOf, NestedTypeOf } from "./nested-types";
 import * as NestedUtilities from "./nested-utility";
 
-export type { NestedKeyOf };
+export type { NestedKeyOf, NestedTypeOf };
 export { NestedUtilities };

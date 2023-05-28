@@ -58,7 +58,7 @@ export const sortBy = <T extends Record<string, unknown>>(
 };
 
 /**
- * Find an element in a lis that matches the @param valueToFind, returns undefined otherwise.
+ * Find an element in a list that matches the @param valueToFind, returns undefined otherwise.
  * The value is only going to be compared if it is an string or a number.
  * @param objectList
  * @param nestedKey
